@@ -14,9 +14,9 @@ export default defineConfig({
   },
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "fr"],
+    locales: ["en", "es"],
     fallback: {
-      fr: "en",
+      es: "en",
     },
     routing: {
       prefixDefaultLocale: false,
@@ -30,7 +30,7 @@ export default defineConfig({
         defaultLocale: "en", // All urls that don't contain `fr` after `https://screwfast.uk/` will be treated as default locale, i.e. `en`
         locales: {
           en: "en", // The `defaultLocale` value must present in `locales` keys
-          fr: "fr",
+          es: "es",
         },
       },
     }),
