@@ -9,11 +9,11 @@ import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
 // Define the variables that will be used in this component
-const title: string = "Contact us";
+const title: string = "Contact me";
 const subTitle: string =
-  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
+  "Need help or want to kick off a project in Girona? Get in touch! We're ready to create the ideal solution using Girona’s local expertise and services.";
 const formTitle: string = "Fill in the form below";
-const formSubTitle: string = "We'll get back to you in 1-2 business days.";
+const formSubTitle: string = "I'll get back to you in 1-2 business days.";
 ---
 
 <!-- Contact Us -->
@@ -77,37 +77,37 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
       <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
         <ContactIconBlock
-          heading="Knowledgebase"
-          content="Browse through all of our knowledgebase articles."
-          isLinkVisible={true}
+          heading="Girona WordPress"
+          content="I'll get back to you."
+          isLinkVisible={false}
           linkTitle="Visit guides & tutorials"
           linkURL="#"
-          isArrowVisible={true}
+          isArrowVisible={false}
           ><Icon name="question" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="FAQ"
-          content="Explore our FAQ for quick, clear answers to common queries."
-          isLinkVisible={true}
+          heading="Questions?"
+          content="Any questions? Please feel free."
+          isLinkVisible={false}
           linkTitle="Visit FAQ"
           linkURL="#"
-          isArrowVisible={true}
+          isArrowVisible={false}
           ><Icon name="chatBubble" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Visit our office"
-          content="UK ScrewFast"
-          isAddressVisible={true}
+          heading="Let's meeet for a coffee in Girona"
+          content="Happy to meet you in person and discuss your WordPress ideas."
+          isAddressVisible={false}
           addressContent="72 Union Terrace, E10 4PE London"
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Contact us by email"
-          content="Prefer the written word? Drop us an email at"
-          isLinkVisible={true}
+          heading="Contact me by email"
+          content="You can also contact me by using email"
+          isLinkVisible={false}
           linkTitle="support@screwfast.uk"
           linkURL="#"
           ><Icon name="envelopeOpen" />
