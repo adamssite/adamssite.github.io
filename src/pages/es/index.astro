@@ -28,27 +28,22 @@ const avatarSrcs: Array<string> = [
 ];
 ---
 
-<MainLayout lang="fr">
-  <AnnouncementBanner
-    btnId="dismiss-button"
-    btnTitle="Découvrez ScrewFast sur GitHub"
-    url="https://github.com/mearashadowfax/ScrewFast"
-  />
+<MainLayout lang="es">
+
 
   <HeroSection
-    title=`Équipez vos projets avec <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Outils matériels de haute qualité et services de construction experts pour tous les besoins en projet."
-    primaryBtn="Commencez à explorer"
-    primaryBtnURL={getRelativeLocaleUrl("fr", "products")}
-    secondaryBtn="Contacter l'équipe commerciale"
-    secondaryBtnURL={getRelativeLocaleUrl("fr", "contact")}
-    withReview={true}
+    title=`WordPress <span
+        class="text-yellow-500 dark:text-yellow-400">Girona</span>`
+    subTitle="Top-quality WordPress Developer from Girona. I can help you with any problem related to WordPress. Doesn't matter if plugins, themes, or customization—I've got you covered. Experience smooth and stress-free website creation tailored exactly to your needs. From your friendly Girona WordPress Dev."
+    primaryBtn="Contact Me"
+    primaryBtnURL="/contact"
+    withReview={false}
     avatars={avatarSrcs}
     rating=`<span class="font-bold">4.8</span> / 5`
     starCount={4}
-    reviews=`À partir de plus de <span class="font-bold">12,8k</span> avis`
+    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
     src={heroImage}
-    alt="Pile de boîtes de produits ScrewFast contenant des outils matériels assortis"
+    alt="Stack of ScrewFast product boxes containing assorted hardware tools"
   />
 
   <ClientsSection
