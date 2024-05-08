@@ -1,28 +1,20 @@
 
 const navBarLinks = [
-  { name: "Accueil", url: "/es" },
-  { name: "Produits", url: "/es/products" },
-  { name: "Services", url: "/es/services" },
-  { name: "Blog", url: "/es/blog" },
+  { name: "Inicio", url: "/es" },
   { name: "Contact", url: "/es/contact" },
 ];
 
 const footerLinks = [
   {
-    section: "Écosystème",
+    section: "WordPress Links",
     links: [
-      { name: "Documentation", url: "/es/welcome-to-docs/" },
-      { name: "Outils et Équipements", url: "/es/products" },
-      { name: "Services de Construction", url: "/es/services" },
+      { name: "WordPress Website", url: "https://wordpress.org/" },
     ],
   },
   {
-    section: "Société",
+    section: "Company",
     links: [
-      { name: "À propos de nous", url: "#" },
-      { name: "Blog", url: "/es/blog" },
-      { name: "Carrières", url: "#" },
-      { name: "Clients", url: "#" },
+      { name: "Contact Me", url: "/contact" },
     ],
   },
 ];

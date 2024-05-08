@@ -8,16 +8,15 @@ import PhoneInput from "@components/ui/forms/input/PhoneInput.astro";
 import TextAreaInput from "@components/ui/forms/input/TextAreaInput.astro";
 import Icon from "@components/ui/icons/Icon.astro";
 
-// Define the variables that will be used in this component
-const title: string = "Contactez-nous";
+// Define las variables que se usarán en este componente
+const title: string = "Contáctame";
 const subTitle: string =
-  "Vous avez des questions ou souhaitez discuter d'un projet ? Contactez-nous et laissons-nous élaborer la solution parfaite avec nos outils et services.";
-const formTitle: string = "Remplissez le formulaire ci-dessous";
-const formSubTitle: string =
-  "Nous vous répondrons dans un délai de 1 à 2 jours ouvrables.";
+  "¿Necesitas ayuda o quieres iniciar un proyecto en Girona? ¡Ponte en contacto! Estamos listos para crear la solución ideal utilizando la experiencia y servicios locales de Girona.";
+const formTitle: string = "Llena el formulario a continuación";
+const formSubTitle: string = "Te responderé en 1-2 días hábiles.";
 ---
 
-<!-- Contact Us -->
+<!-- Contáctanos -->
 <section class="mx-auto max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
   <div class="mx-auto max-w-2xl lg:max-w-5xl">
     <div class="text-center">
@@ -38,19 +37,19 @@ const formSubTitle: string =
         >
           {formTitle}
         </h2>
-        <!-- Form for user input with various input fields.-->
-        <!-- Each field utilizes a different input component for the specific type of input (text, email, phone, and textarea)-->
-        <form>
+        <!-- Formulario para la entrada de usuario con varios campos de entrada. -->
+        <!-- Cada campo utiliza un componente de entrada diferente para el tipo específico de entrada (texto, correo electrónico, teléfono y área de texto)-->
+        <form action="https://formsubmit.co/lukasz.adms@gmail.com" method="POST">
           <div class="grid gap-4">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput
                 id="hs-firstname-contacts"
-                label="Prénom"
+                label="Nombre"
                 name="hs-firstname-contacts"
               />
               <TextInput
                 id="hs-lastname-contacts"
-                label="Nom"
+                label="Apellido"
                 name="hs-firstname-contacts"
               />
             </div>
@@ -58,13 +57,13 @@ const formSubTitle: string =
             <PhoneInput id="hs-phone-number" />
             <TextAreaInput
               id="hs-about-contacts"
-              label="Détails"
+              label="Detalles"
               name="hs-about-contacts"
             />
           </div>
 
           <div class="mt-4 grid">
-            <AuthBtn title="Envoyer un message" />
+            <AuthBtn title="Enviar mensaje" />
           </div>
 
           <div class="mt-3 text-center">
@@ -75,40 +74,40 @@ const formSubTitle: string =
         </form>
       </div>
 
-      <!--ContactIconBlocks are used to display different methods of contacting, including visiting office, email, browsing knowledgebase, and FAQ.-->
+      <!--ContactIconBlocks se utilizan para mostrar diferentes métodos de contacto, incluyendo visitar la oficina, correo electrónico, navegar por la base de conocimientos y FAQ.-->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
         <ContactIconBlock
-          heading="Base de connaissances"
-          content="Parcourez tous nos articles de base de connaissances."
-          isLinkVisible={true}
-          linkTitle="Visiter les guides et tutoriels"
+          heading="WordPress Girona"
+          content="Te responderé."
+          isLinkVisible={false}
+          linkTitle="Visitar guías y tutoriales"
           linkURL="#"
-          isArrowVisible={true}
+          isArrowVisible={false}
           ><Icon name="question" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="FAQ"
-          content="Explorez notre FAQ pour des réponses rapides et claires aux questions courantes."
-          isLinkVisible={true}
-          linkTitle="Visiter la FAQ"
+          heading="¿Preguntas?"
+          content="Cualquier pregunta? No dudes en enviarme tu mensaje."
+          isLinkVisible={false}
+          linkTitle="Visitar FAQ"
           linkURL="#"
-          isArrowVisible={true}
+          isArrowVisible={false}
           ><Icon name="chatBubble" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Visitez notre bureau"
-          content="ScrewFast UK"
-          isAddressVisible={true}
+          heading="Reunámonos para un café en Girona"
+          content="Encantado de conocerte en persona y discutir tus ideas de WordPress."
+          isAddressVisible={false}
           addressContent="72 Union Terrace, E10 4PE London"
           ><Icon name="mapPin" />
         </ContactIconBlock>
 
         <ContactIconBlock
-          heading="Contactez-nous par e-mail"
-          content="Préférez-vous le texte écrit ? Envoyez-nous un e-mail à"
-          isLinkVisible={true}
+          heading="Contáctame por correo electrónico"
+          content="También puedes contactarme usando el correo electrónico sayhi@lukaszadam.com"
+          isLinkVisible={false}
           linkTitle="support@screwfast.uk"
           linkURL="#"
           ><Icon name="envelopeOpen" />

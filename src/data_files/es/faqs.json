@@ -1,29 +1,13 @@
 {
-  "subTitle": "Posez-nous toutes vos questions sur notre marque et nos produits, et obtenez des réponses factuelles.",
+  "subTitle": "Pregúntame cualquier cosa sobre plugins de WordPress, temas, Girona o el mejor vino.",
   "faqs": [
     {
-      "question": "Quels types d'outils sont inclus dans le Kit de Démarrage?",
-      "answer": "Le Kit de Démarrage comprend des outils à main et électriques essentiels pour différents projets de bricolage, notamment des marteaux, des perceuses, des tournevis et une variété de fixations. C'est une sélection soigneusement élaborée pour aider les débutants et les bricoleurs expérimentés à aborder la plupart des tâches d'amélioration de l'habitat."
+      "question": "¿Por qué Girona?",
+      "answer": "Vivo en Girona como desarrollador de WordPress porque no es solo una ciudad hermosa con una rica historia, sino que también es bella e inspiradora. El ambiente creativo y la comunidad activa aquí ayudan a mis diseños e ideas. Además, estar en un entorno amigable con la tecnología me permite mantenerme conectado y actualizado con lo último en tendencias digitales. Girona ofrece la mezcla perfecta de encanto antiguo y tecnología moderna, un lugar excelente para que la creatividad y la innovación prosperen."
     },
     {
-      "question": "Puis-je passer du Kit de Démarrage à la Boîte à Outils Professionnelle?",
-      "answer": "Absolument ! Vous pouvez passer à la Boîte à Outils Professionnelle à tout moment pour accéder à une gamme plus large d'outils de haute qualité, bénéficier d'un support client prioritaire et recevoir un contenu exclusif. Contactez notre équipe de support pour une transition sans problème."
-    },
-    {
-      "question": "Quels sont les rabais disponibles pour les commandes en gros via le plan Boîte à Outils Professionnelle?",
-      "answer": "Les membres de la Boîte à Outils Professionnelle ont droit à des rabais exclusifs sur les commandes en gros, dont le pourcentage peut varier en fonction du volume de la commande. Contactez-nous pour discuter de vos besoins, et nous vous fournirons une structure de rabais personnalisée."
-    },
-    {
-      "question": "À quoi puis-je m'attendre en termes de support client?",
-      "answer": "Tous nos clients bénéficient d'un support par e-mail dédié. Avec le Kit de Démarrage, vous recevrez notre support standard, tandis que le plan Boîte à Outils Professionnelle vous mettra à niveau vers un support prioritaire, ce qui signifie des temps de réponse plus rapides et une assistance spécialisée."
-    },
-    {
-      "question": "À quelle fréquence sont mises à jour les ressources en ligne et les tutoriels?",
-      "answer": "Nous mettons régulièrement à jour nos ressources en ligne et nos tutoriels pour refléter les dernières tendances en matière de bricolage et de construction, ainsi que les introductions de nouveaux outils et techniques. Notre matériel vise à être complet et convivial pour tous les niveaux de compétence."
-    },
-    {
-      "question": "ScrewFast propose-t-il des services pour les grands projets de construction?",
-      "answer": "Oui, nos Solutions Entreprise sont conçues pour les grandes entreprises ayant besoin de services complets. Nous fournissons des consultations, de la planification et de l'approvisionnement en outils et matériaux de haute qualité, ainsi que des solutions de personnel pour des besoins de construction importants. Contactez-nous pour un devis personnalisé."
+      "question": "¿Cuánto cuesta un sitio web en WordPress?",
+      "answer": "Para un sitio web básico en WordPress utilizando plantillas estándar y mínima personalización, podrías estar mirando costos que van desde $100 hasta $500. Esta opción es ideal si estás comenzando o necesitas un blog sencillo o un sitio para un pequeño negocio. Si pasas a un sitio más profesional o personalizado con temas y plugins premium, los precios podrían aumentar a entre $500 y $2,500. Este rango se adapta a negocios pequeños a medianos que necesitan características adicionales como herramientas SEO, formularios personalizados o capacidades de comercio electrónico. Para algo de nivel superior como un sitio grande de negocios o una plataforma de comercio electrónico altamente personalizada, el costo podría fácilmente subir a $5,000 o más. Estos sitios a menudo requieren codificación personalizada extensa, trabajo de diseño de alta calidad, plugins premium y quizás incluso servicios continuos de mantenimiento o retención."
     }
   ]
 }
